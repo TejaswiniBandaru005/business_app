@@ -1,5 +1,5 @@
 name: business_location_analyzer
-description: A Flutter app that helps entrepreneurs find the perfect business location with AI-powered analysis.
+description: BizSuggest - A Flutter app for business idea suggestions and community feedback with AI assistance.
 
 publish_to: 'none'
 
@@ -11,6 +11,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  image_picker: ^1.0.4
+  intl: ^0.18.1
+  uuid: ^4.1.0
+  fl_chart: ^0.64.0
+  lottie: ^2.7.0
+  animations: ^2.0.8
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
